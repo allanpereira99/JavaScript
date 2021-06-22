@@ -1,6 +1,5 @@
 //exemplo basico de função
 
-
 // Com retorno
 
 function saudacao(nome){
@@ -17,3 +16,11 @@ function soma(a,b){
 }
 
 soma(10,5)
+
+// armazenando uma função em uma variavel 
+
+const dividir = function(a,b) {
+    console.log(a / b)
+}
+
+dividir(100,2)
