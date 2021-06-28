@@ -15,3 +15,12 @@ for (let y in valor){
     }
     console.log(y)
 }
+
+externo : for (let a in valor){
+    for(let b in valor){
+        if ( a >6  && b > 6){
+        break externo
+        }
+        console.log(`a = ${a}!, b = ${b}!`)
+    }
+}
